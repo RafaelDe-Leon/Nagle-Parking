@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    width: 100%;
+}
+
 /* nav bar  */
 .font-control {
     font-weight: bold;
