@@ -20,18 +20,37 @@
 
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Nagle Parking</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" id="main-logo-control" href="#">Nagle Parking</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse nav-control" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="#">Locations</a>
+        </li>    
+      </ul>
+      
     </div>
   </nav>
+
+  <!--  end of new nav bar -->
 
   <!-- Masthead -->
   <header class="masthead text-white text-center">
