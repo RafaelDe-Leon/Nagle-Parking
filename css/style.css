@@ -1,7 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
 
 /* nav bar  */
 .nav-control {
-    margin-left: 73%;
+    margin-left: 65%;
 }
 
 #main-logo-control {
