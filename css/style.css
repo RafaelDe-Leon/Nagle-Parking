@@ -3,6 +3,18 @@ html {
 }
 
 /* nav bar  */
+.font-control {
+    font-weight: bold;
+}
+
+#logo-control {
+    font-size: 24px;
+}
+
+#nav-color {
+    background-color: #e3f2fd;
+}
+
 .nav-control {
     margin-left: 65%;
 }
@@ -12,3 +24,31 @@ html {
 }
 
 /* end of nav bar */
+
+/* button colors */
+
+.button-color-primary {
+    background-color: #2923af;
+    border-color: #2923af;
+}
+.daily-button-color {
+    background-color: #ebf31f;
+}
+
+/* end of button colors */
+
+
+/* ------------------------------------------------------------------------- */
+
+/* showcase image */
+
+.image-add {
+    background-image: url('../img/parking3.jpg');
+}
+
+/* showcase row */
+
+
+
+
+/* end of showcase image */
